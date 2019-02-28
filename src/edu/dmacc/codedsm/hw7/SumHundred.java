@@ -14,6 +14,7 @@ public class SumHundred {
 
 
     }
+
     public static void main(String[] args) {
 
         int a = 1;
@@ -25,7 +26,7 @@ public class SumHundred {
         while(keeper < 100){
 
             keeper = input(a, b, keeper);
-            i = i + 1;
+            i++;
 
         }
 
